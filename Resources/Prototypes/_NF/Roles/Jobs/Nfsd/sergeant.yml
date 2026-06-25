@@ -1,26 +1,33 @@
 - type: job
-  id: Brigmedic
-  name: job-name-brigmedic
-  description: job-description-brigmedic-nf
-  playTimeTracker: JobBrigmedic
+  id: sergeant
+  name: job-name-Sergeant
+  description: job-description-Sergeant
+  playTimeTracker: JobSergeant
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 43200 # 12 hours
+      time: 108000 # 30 hours
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 21600 # 6 hours
+      time: 64800 # 18 hours
+    - !type:RoleTimeRequirement
+      role: JobSecurityOfficer
+      time: 43200 # 12 hours
   alternateRequirementSets:
     longerPlaytimeLessSec:
     - !type:OverallPlaytimeRequirement
-      time: 360000 # 100 hours
-  startingGear: BrigmedicGear
-  icon: JobIconBrigmedicNF
+      time: 540000 # 150 hours
+    - !type:RoleTimeRequirement
+      role: JobSecurityOfficer
+      time: 21600 # 6 hours
+  startingGear: SergeantGear
+  icon: JobIconSergeant
   supervisors: job-supervisors-bailiff
-  weight: 125
-  displayWeight: 35
+  weight: 140
+  displayWeight: 50
   canBeAntag: false
+  setPreference: false # Frontier
   access:
-  - Brigmedic
+  - Sergeant
   accessGroups:
   - GeneralNfsdAccess
   special:
@@ -31,13 +38,13 @@
     prototype: FrontierBirthdayGift
 
 - type: startingGear
-  id: BrigmedicGear
+  id: SergeantGear
   equipment:
     pocket1: NFWeaponPistolUniversalNfsdLessLethal
   storage:
     back:
-    - EncryptionKeyMedical
     - Flash
     - NFMagazineHighCapacityPistol35Overpressure
     - NFMagazineHighCapacityPistol35Rubber
-    - FrontierUplinkCoin10
+    - BaseSecurityUplinkRadioOfficer
+    - ShipVoucherNfsdSergeant
