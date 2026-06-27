@@ -134,7 +134,7 @@
   icon:
     sprite: /Textures/_NF/Interface/Misc/job_icons.rsi
     state: nfsdbrigmed
-  jobName: job-name-brigmedic-nf
+  jobName: job-name-nf-brigmedic
   allowSelection: false 
 
 - type: jobIcon

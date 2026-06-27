@@ -38,6 +38,7 @@
 - type: startingGear
   id: brigmedicGear
   equipment:
+    id: BrigmedicPDA
     # eyes: ClothingEyesGlassesSecurity # HardLight: Add departmental NF-style loadouts
     ears: ClothingHeadsetBrigmedic
     pocket1: NFWeaponPistolMk58 # Frontier: use NF variant

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "drawn by Kilk, modified by HTMLSystem, recolored for Hardlight by Vonte",
+  "copyright": "made by Vonte based on officer uniform sprites from Flareguy and folded-equipped-INNERCLOTHING edited by Dutch-VanDerLinde",
   "size": {
     "x": 32,
     "y": 32
@@ -11,7 +11,11 @@
       "name": "icon"
     },
     {
-      "name": "equipped-FEET",
+      "name": "equipped-INNERCLOTHING",
+      "directions": 4
+    },
+    {
+      "name": "folded-equipped-INNERCLOTHING",
       "directions": 4
     },
     {

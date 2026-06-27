@@ -1,5 +1,5 @@
 - type: job
-  id: Brigmedic-nf
+  id: nf-Brigmedic
   name: job-name-nf-brigmedic
   description: job-description-nf-brigmedic
   playTimeTracker: JobNFBrigmedic
