@@ -417,7 +417,8 @@
       - state: overlay-inhand-right
         sprite: Clothing/Uniforms/Jumpsuit/security.rsi
 
-- type: entity
+# Hardlight Cadet
+- type: entity 
   parent: [ClothingUniformSkirtBase, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
   id: ClothingUniformJumpskirtCadet
   name: cadet jumpskirt

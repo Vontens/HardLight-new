@@ -1,4 +1,4 @@
-- type: job
+- type: job # Hardlight
   id: SeniorOfficer
   name: job-name-senior-officer
   description: job-description-senior-officer

@@ -1134,6 +1134,8 @@
         tags:
           - SecurityUplink
 
+# Hardlight ammo addition start
+
 - type: listing
   id: UplinkSecurityShotLethal4
   name: uplink-security-shotlethal4-name
@@ -1213,7 +1215,9 @@
       whitelist:
         tags:
           - SecurityUplink
-          
+
+# Hardlight ammo addition end
+
 - type: listing
   id: UplinkSecurityCash1000
   name: uplink-security-cash1000-name

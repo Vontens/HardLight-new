@@ -76,8 +76,8 @@
   - HeadOfSecurity
   - Warden
   - Detective
-  - Brigmedic
-  - SeniorOfficer
+  - Brigmedic # Hardlight
+  - SeniorOfficer # Hardlight
   - SecurityOfficer
   - SecurityCadet
   - SecurityQuadBorg
@@ -92,7 +92,7 @@
   - ChiefMedicalOfficer
   - Paramedic
   - Geneticist # Funkystation
-  - Brigmedic
+  - Brigmedic # Hardlight
   - Chemist
   - MedicalDoctor
   - MedicalIntern
